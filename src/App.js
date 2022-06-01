@@ -1,10 +1,10 @@
 import './App.css';
+import Landing from './components/landing';
 
 function App() {
   return (
     <div className="App">
-      <h1>Ray Valdez</h1>
-      <h3>Full Stack Developer</h3>
+      <Landing />
     </div>
   );
 }
