@@ -1,13 +1,25 @@
 import React from 'react';
+import Box from '@mui/material/Box';
+import CssBaseline from '@mui/material/CssBaseline';
+import Typography from '@mui/material/Typography';
 
 const Landing = () => {
 
   return (
-    <div class="Landing">
-      <h3>Hi, I am Ray Valdez</h3>
-      <h3>Full Stack Developer</h3>
-      <h3>Based in London</h3>
-    </div>
+    <CssBaseline>
+      <Box
+        sx={{
+          width: '100vw',
+          height: '91vh',
+          backgroundColor: 'primary.dark',
+      }}>
+        <Typography variant="h3">
+          Hi, I am Ray Valdez, a <br/>
+          Full Stack developer <br/>
+          based in London
+        </Typography>
+      </Box>
+    </CssBaseline>
   );
 };
 
