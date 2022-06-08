@@ -1,10 +1,10 @@
 import Landing from './components/Landing';
-import ResponsiveAppBar from './components/ResponsiveAppBar';
+import Header from './components/Header';
 
 function App() {
   return (
     <div className="App">
-      <ResponsiveAppBar />
+      <Header />
       <Landing />
     </div>
   );
