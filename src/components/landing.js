@@ -9,8 +9,8 @@ const Landing = () => {
     <CssBaseline>
       <Box
         sx={{
-          width: '100vw',
-          height: '91vh',
+          width: '100%',
+          height: '100vh',
           backgroundColor: 'primary.dark',
       }}>
         <Typography variant="h3">
