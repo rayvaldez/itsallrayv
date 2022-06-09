@@ -19,6 +19,11 @@ const Header = () => {
           }}>
           Header Logo
           </Typography>
+          <Typography sx={{
+            display: { xs: 'none', md: 'flex'}
+          }}>
+            About  Portfolio  Contact {/*Change to actual menu*/}
+          </Typography>
           <IconButton sx={{
             display: { xs: 'flex', md: 'none' },
           }}>
