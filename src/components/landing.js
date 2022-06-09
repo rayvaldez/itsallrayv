@@ -11,11 +11,18 @@ const Landing = () => {
         sx={{
           width: '100%',
           height: '100vh',
-          backgroundColor: 'primary.dark',
+          backgroundColor: '#1c313a',
       }}>
-        <Typography variant="h3">
+        <Typography variant="h2" sx={{
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center',
+          height: '90vh',
+          width: '50vw',
+          color: '#e8e8e8',
+        }}>
           Hi, I am Ray Valdez, a <br/>
-          Full Stack developer <br/>
+          Full Stack Developer <br/>
           based in London
         </Typography>
       </Box>
