@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/itsallrayv/static/js/main.d6280f44.js",
+    "main.js": "/itsallrayv/static/js/main.641d31a4.js",
     "index.html": "/itsallrayv/index.html",
-    "main.d6280f44.js.map": "/itsallrayv/static/js/main.d6280f44.js.map"
+    "main.641d31a4.js.map": "/itsallrayv/static/js/main.641d31a4.js.map"
   },
   "entrypoints": [
-    "static/js/main.d6280f44.js"
+    "static/js/main.641d31a4.js"
   ]
 }
