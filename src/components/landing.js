@@ -1,32 +1,39 @@
 import React from 'react';
 import Box from '@mui/material/Box';
-import CssBaseline from '@mui/material/CssBaseline';
 import Typography from '@mui/material/Typography';
+import {
+  createTheme,
+  ThemeProvider,
+  responsiveFontSizes,
+} from '@mui/material/styles';
 
 const Landing = () => {
 
+  let theme = createTheme();
+  theme = responsiveFontSizes(theme);
+
   return (
-    <CssBaseline>
-      <Box
-        sx={{
-          width: '100%',
-          height: '100vh',
-          backgroundColor: '#1c313a',
-      }}>
-        <Typography variant="h2" sx={{
+    <Box
+      sx={{
+        width: '100%',
+        height: '100vh',
+        backgroundColor: '#1c313a',
+    }}>
+      <ThemeProvider theme={theme}>
+        <Typography variant="h3" sx={{
           display: 'flex',
           justifyContent: 'center',
           alignItems: 'center',
           height: '90vh',
-          width: '50vw',
-          color: '#e8e8e8',
+          width: '90vw',
+          color: '#FAF9F6',
         }}>
-          Hi, I am Ray Valdez, a <br/>
+          Ray Valdez <br/>
           Full Stack Developer <br/>
-          based in London
+          London
         </Typography>
-      </Box>
-    </CssBaseline>
+      </ThemeProvider>
+    </Box>
   );
 };
 
