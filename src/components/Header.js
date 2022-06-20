@@ -29,7 +29,7 @@ const Header = () => {
   return (
     <div>
       <HideOnScroll>
-        <AppBar sx={{background: 'none', boxShadow: '0 0 0 0'}}>
+        <AppBar sx={{backgroundColor: '#1c313a', boxShadow: '0 0 0 0'}}>
           <Toolbar sx={{width: '98%', margin: '0 auto'}}>
             <Typography variant='h5' sx={{
               display: { xs: 'flex', md: 'none' },
