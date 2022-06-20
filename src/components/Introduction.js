@@ -23,42 +23,41 @@ export default function Introduction() {
     }}>
 			<ThemeProvider theme={responsiveText}>
         <Grid container spacing={0}>
-					<Grid item xs={4} align='left' sx={{
-						mt:'40vh',
-						ml:'10vw',
+					<Grid item align='center' xs={12} md={6} sx={{
+						mt: { xs: '15vh', md: '40vh'}
 					}}>
             <Typography variant='h2'>
                 Image goes here
             </Typography>
 					</Grid>
-					<Grid item xs={6} md={5} align='right' sx={{
+					<Grid item xs={12} md={6} align='center' sx={{
 						mt:'22vh',
 					}}>
-            <Typography variant='h6'>
+            <Typography variant='hp'>
                 Short Introduction about yourself
             </Typography>
-						<Typography variant='h6' display='block'>
+						<Typography variant='hp' display='block'>
 								Who What Where When				 
 						</Typography>
 						<br></br><br></br>
-            <Typography variant='h6'>
+            <Typography variant='hp'>
                 More about yourself 
             </Typography>
-						<Typography variant='h6' display='block'>
+						<Typography variant='hp' display='block'>
 								Who What Where When				 
 						</Typography>
 						<br></br><br></br>
-            <Typography variant='h6'>
+            <Typography variant='hp'>
                Even More about yourself 
             </Typography>
-						<Typography variant='h6' display='block'>
+						<Typography variant='hp' display='block'>
 								Who What Where When				 
 						</Typography>
 						<br></br><br></br>
-            <Typography variant='h6'>
+            <Typography variant='hp'>
                Wrap it up about yourself 
             </Typography>
-						<Typography variant='h6' display='block'>
+						<Typography variant='hp' display='block'>
 								Who What Where When				 
 						</Typography>
 					</Grid>
